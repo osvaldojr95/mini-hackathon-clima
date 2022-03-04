@@ -23,16 +23,14 @@
             <input class="login-input longitude" type="text" class="answer" placeholder="Longitude" />
             <button onclick="getLatLonByElemts()">Confirmar</button>
         </div>
-        <div class="tela2 hidden">
-
-        <div class="showClimate">
-            <h2>São Paulo, SP</h2>
-            <h3>32°C</h3>
-            <p>Sensação Térmica:</p>
-            <p>Pressão Atmosférica:</p>
-            <p>Umidade:</p>
-            <p>Temperatura Mínima:</p>
-            <p>Temperatura Máxima:</p>
+        <div class="tela2 hidden showClimate">
+            <h1><span class="temp"></span></h1>
+            <h2><span class="city"></span>, <span class="country"></span></h2>
+            <p>Temperatura Mínima: <span class="temp_min"></span></p>
+            <p>Temperatura Máxima: <span class="temp_max"></span></p>
+            <p>Sensação Térmica: <span class="feels_like"></span></p>
+            <p>Pressão Atmosférica: <span class="pressure"></span></p>
+            <p>Umidade: <span class="humidity"></span></p>
             <p></p>
             <p></p>
             <p></p>
@@ -45,7 +43,6 @@
             <p></p>
             <p></p>
             <p></p>
-
         </div>
     </main>
     <footer></footer>
