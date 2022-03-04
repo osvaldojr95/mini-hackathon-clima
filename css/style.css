@@ -87,3 +87,7 @@ main .informacoes-regiao-usuario button {
     font-size: 18px;
     line-height: 25px;
 }
+
+.hidden {
+    display: none !important;
+}

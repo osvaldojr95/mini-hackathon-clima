@@ -18,11 +18,14 @@
         <h1>Flamengo's Weather</h1>
     </header>
     <main>
-        <div class="informacoes-regiao-usuario">
-            <h3>Digite abaixo as informações do local onde você se encontra:</h3>
-            <input class="login-input" type="text" class="answer" placeholder="Latitude" />
-            <input class="login-input" type="text" class="answer" placeholder="Longitude" />
-            <button>Confirmar</button>
+        <div class="tela1 informacoes-regiao-usuario">
+            <h3>Não foi possível obter a localização automaticamente, por favor insira manualmente sua latitude e longitude abaixo:</h3>
+            <input class="login-input latitude" type="text" class="answer" placeholder="Latitude" />
+            <input class="login-input longitude" type="text" class="answer" placeholder="Longitude" />
+            <button onclick="getLatLonByElemts()">Confirmar</button>
+        </div>
+        <div class="tela2 hidden">
+
         </div>
     </main>
     <footer></footer>
