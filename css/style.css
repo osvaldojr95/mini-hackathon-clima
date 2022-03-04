@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #6c5fee;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(75, 63, 214, 1) 78%, rgba(252, 176, 69, 1) 100%);
+}
+
+header h1 {
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(29, 131, 253, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+main .informacoes-regiao-usuario {
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    background-color: #FFFFFF;
+}
+
+main .informacoes-regiao-usuario h3 {
+    padding: 20px 20px 5px;
+    text-align: center;
+    color: darkblue;
+}
+
+main .informacoes-regiao-usuario input {
+    width: 261px;
+    height: 54px;
+    margin-top: 40px;
+    border-radius: 4px;
+    border: 1px solid #D7D7D7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+main .informacoes-regiao-usuario input::placeholder {
+    opacity: 1;
+    color: #D6D6D6;
+}
+
+main .informacoes-regiao-usuario input::-ms-input-placeholder {
+    color: #D6D6D6;
+
+}
+
+main .informacoes-regiao-usuario input::-ms-input-placeholder {
+    color: #D6D6D6;
+}
+
+main .informacoes-regiao-usuario button {
+    width: 109px;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 9px;
+    background-color: #E7E7E7;
+    color: #696969;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
