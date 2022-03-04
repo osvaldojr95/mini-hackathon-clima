@@ -118,7 +118,7 @@ function error(response) {
 
     lonElement = document.querySelector(".login-input.longitude");
     lonElement.value = "";
-    
+
     element = document.querySelector(".tela1 h3");
     element.innerHTML = "Não foi possível encontrar os dados para essa localização, por favor insira outra localização!";
 }
