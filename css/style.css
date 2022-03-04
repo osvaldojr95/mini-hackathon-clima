@@ -1,3 +1,33 @@
+.hidden{
+    display: none !important;
+}
+
+.showClimate{
+    width: 380px;
+    top: 300px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.showClimate h2{
+    color: darkblue;
+    font-size: 40px;
+}
+
+.showClimate h3{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+.showClimate p{
+    color: lightslategray;
+    font-size: 25px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #6c5fee;
